@@ -2,7 +2,7 @@
     処理内容
     return 返り値
 } -->
-<!-- 引数と戻り値あり -->
+<!-- 引数と戻り値あり outputNumberは自分で作っている-->
 <?php
 function outputNumber($a){
     echo '引数は'.$a.'です';
@@ -79,6 +79,8 @@ function getTrapezoidArea($upperBase, $lowerBase, $height){
   return ($upperBase + $lowerBase) * $height / 2;
 }
 echo getSquareArea(5, 5) . "\n";
-echo getTriangleArea(7, 8)."\n";
+echo getTriangleArea(7, 8) . "\n";
 echo getTrapezoidArea(4, 5, 4);
 ?>
+
+
